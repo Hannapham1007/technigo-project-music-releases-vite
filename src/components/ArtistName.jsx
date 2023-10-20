@@ -1,5 +1,5 @@
 import React from "react";
-import "./ArtistName.css";
+import "../styles/ArtistName.css";
 
 export const ArtistName = ({ artistsArray }) => {
   // TODO: Link artist name, Hanna

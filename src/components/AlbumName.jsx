@@ -1,5 +1,5 @@
 import React from "react";
-import "./AlbumName.css";
+import "../styles/AlbumName.css";
 
 export const AlbumName = ({albumName}) => {
   // TODO: Link album name, Hanna
