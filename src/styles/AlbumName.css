@@ -1,0 +1,14 @@
+.album-name a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    text-underline-offset: 4px;
+    
+}
+.album-name a:hover{
+    text-decoration: underline;
+}
+.album-name{
+    padding-top: 20px;
+    padding-bottom: 6px;
+}

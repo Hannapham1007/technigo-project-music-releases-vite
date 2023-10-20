@@ -3,10 +3,16 @@ import { AlbumName } from "./AlbumName.jsx";
 import { ArtistName } from "./ArtistName.jsx";
 import { CoverImage } from "./CoverImage.jsx";
 
-export const Album = (props) => {
-    return <div>
-        <CoverImage />
-        <AlbumName key={props.albumName} name={props.albumName} />
-        <ArtistName key={props.artistName} name={props.artistName} />
-    </div>
-}
+export const Album = ({albumData}) => {
+    return (
+        <div className="album-container">
+          {albumData.albums.items.map((item) => (
+            <div key={item.id}>
+              <CoverImage  />
+              <AlbumName albumName={item} />
+              <ArtistName  artistsArray={item.artists} />
+            </div>
+          ))}
+        </div>
+      );
+    }

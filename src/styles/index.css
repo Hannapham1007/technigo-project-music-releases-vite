@@ -9,19 +9,10 @@
   color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.album-container{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  
 }
 
-.album-name {
-  color: blue;
-}
-
-.artist-name {
-  color: red;
-}
-
-#album-container {
-  display: flex;
-}
