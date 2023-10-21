@@ -5,7 +5,7 @@ export const ReleaseDate = ({releaseDate}) => {
   // TODO: Link album name, Hanna
   return (
     <div className="release-date">
-      <p>{releaseDate.split('-')[0]}</p>
+      <p className="bold">{releaseDate.split('-')[0]}</p>
     </div>
   );
 };
