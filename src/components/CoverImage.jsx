@@ -1,8 +1,15 @@
 import React from 'react';
+import "../styles/CoverImage.css";
 
-export const CoverImage = (props) => {
-    // To do: Klara
-    return <div>
-        CoverImage
+
+export const CoverImage = ({coverImage}) => {
+
+return (
+    <div className="cover-image">
+        <img src={coverImage.images[1].url}></img> 
     </div>
-}
+  );
+ }
+
+
+  
