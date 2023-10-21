@@ -8,7 +8,7 @@ export const Album = ({albumData}) => {
         <div className="album-container">
           {albumData.albums.items.map((item) => (
             <div key={item.id}>
-              <CoverImage  />
+              <CoverImage coverImage={item} />
               <AlbumName albumName={item} />
               <ArtistName  artistsArray={item.artists} />
             </div>

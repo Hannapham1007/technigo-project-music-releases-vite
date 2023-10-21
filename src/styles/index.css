@@ -9,10 +9,32 @@
   color: white;
 }
 
-.album-container{
+.album-container {
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 20px;
-  
+  width: 100vw;
+  align-items: center;
+  justify-items: center;
 }
 
+/* On 1280px-screens and less */
+@media screen and (max-width: 1280px) {
+  .album-container {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+/* On 1080px-screens and less */
+@media screen and (max-width: 1080px) {
+  .album-container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+/* On 630px-screens and less */
+@media screen and (max-width: 630px) {
+  .album-container {
+    grid-template-columns: repeat(1, auto);
+  }
+}

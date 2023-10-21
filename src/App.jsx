@@ -11,6 +11,7 @@ export const App = () => {
       <Header />
       <div className="album-container">
         <Album albumData={data} />
+    
       </div>
     </div>
   );
