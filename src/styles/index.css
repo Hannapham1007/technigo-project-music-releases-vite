@@ -15,6 +15,15 @@
   gap: 25px;
 }
 
+.section {
+  font-size: large;
+  font-weight: bold;
+  padding: 1em 2em;
+  border-bottom: 1px solid #5a5a5a;
+  margin: 25px;
+  margin-top: 50px;
+}
+
 /* On 1080px-screens and less */
 @media screen and (max-width: 1080px) {
   .album-container {

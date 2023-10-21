@@ -5,9 +5,11 @@
     text-underline-offset: 4px;
     
 }
+
 .artist-name a:hover{
     text-decoration: underline;
 }
+
 .single-artist{
     display: inline;
 }

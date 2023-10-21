@@ -5,10 +5,12 @@
     text-underline-offset: 4px;
     
 }
+
 .album-name a:hover{
     text-decoration: underline;
 }
+
 .album-name{
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 6px;
 }
