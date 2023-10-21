@@ -9,10 +9,7 @@ export const App = () => {
   return (
     <div className="page-container">
       <Header />
-      <div className="album-container">
-        <Album albumData={data} />
-    
-      </div>
+      <Album albumData={data} />
     </div>
   );
 };

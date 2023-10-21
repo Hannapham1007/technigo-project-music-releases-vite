@@ -11,30 +11,20 @@
 
 .album-container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  gap: 20px;
-  width: 100vw;
-  align-items: center;
-  justify-items: center;
-}
-
-/* On 1280px-screens and less */
-@media screen and (max-width: 1280px) {
-  .album-container {
-    grid-template-columns: repeat(3, auto);
-  }
+  grid-template-columns: repeat(4,  minmax(0, 1fr));
+  gap: 25px;
 }
 
 /* On 1080px-screens and less */
 @media screen and (max-width: 1080px) {
   .album-container {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 /* On 630px-screens and less */
 @media screen and (max-width: 630px) {
   .album-container {
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
