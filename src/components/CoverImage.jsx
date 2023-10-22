@@ -16,7 +16,7 @@ export const CoverImage = ({coverImage}) => {
                 <img src={playIcon} alt="play icon" className="icon"/>
                 <img src={dotsIcon} alt="dots icon" className="icon"/>
             </span>
-            <img src={coverImage.images[1].url} />
+            <img src={coverImage.images[0].url} />
         </div>
     );
 }

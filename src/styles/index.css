@@ -7,6 +7,25 @@
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   color: white;
+  font-size: 14px;
+}
+
+h3 {
+  margin-left: 2em;
+}
+
+.menu-container {
+  margin-top: -10px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 25px;
+}
+
+.sidebar-container {
+  margin: 0;
+  padding: 2em;
+  background-color: #222222;
+  height: 100%;
 }
 
 .album-container {
@@ -15,10 +34,36 @@
   gap: 25px;
 }
 
+.section {
+  font-size: large;
+  border-bottom: 1px solid #5a5a5a;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.left-container .section {
+  padding: 1em 2em;
+  margin: 25px;
+  margin-top: 50px;
+}
+
+.right-container .section {
+  padding: 1em 0;
+  margin-left: -2px;
+}
+
 /* On 1080px-screens and less */
 @media screen and (max-width: 1080px) {
   .album-container {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .menu-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
   }
 }
 
@@ -26,5 +71,11 @@
 @media screen and (max-width: 630px) {
   .album-container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
   }
 }
