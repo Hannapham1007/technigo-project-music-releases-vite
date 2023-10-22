@@ -1,37 +1,12 @@
-<h1 align="center">
-  <a href="">
-    <img src="/src/assets/music-releases.svg" alt="Project Banner Image">
-  </a>
-</h1>
 
 # Music Releases
+The task given us was to create a site in React displaying music releases, using an API from Spotify.
 
-Replace this readme with your own information about your project.
+It was a co-operation between Karolina Shi, Klara Kindlund and me and was done with a pair programming aproach.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
-
-## Getting Started with the Project
-
-### Dependency Installation & Startup Development Server
-
-Once cloned, navigate to the project's root directory and this project uses npm (Node Package Manager) to manage its dependencies.
-
-The command below is a combination of installing dependencies, opening up the project on VS Code and it will run a development server on your terminal.
-
-```bash
-npm i && code . && npm run dev
-```
-
-### The Problem
-
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+We started by discussing the project and how we should build it, as well as starting dividing the different components between each other, as well as deiciding on the structure of the page.
 
 ### View it live
+https://musicrelease.netlify.app/
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
 
-## Instructions
-
-<a href="instructions.md">
-   See instructions of this project
-  </a>
